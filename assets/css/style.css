@@ -1,0 +1,84 @@
+body {
+    font-family: 'Times New Roman';
+   font-size: 150%;
+  }
+
+  .mark {
+   position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration-line: underline; 
+  }
+  
+ .feedback {
+    font-style: italic;
+    font-size: 130%;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: gray;
+    border-top: 2px solid #ccc;
+  }
+  
+  .timer {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+ 
+  a:hover {
+    color: #ee0b0b;
+  }
+  
+  
+  button {
+    display: inline-block;
+    margin: 80px;
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 125%;
+    background-color: #f10909;
+    color: rgb(17, 2, 2);
+   cursor: pointer;
+  }
+
+  .multiplechoices button {
+    display: block;
+  }
+  
+  input[type="text"] {
+    font-size: 100%;
+  }
+ 
+  ol {
+    padding-left: 0px;
+    max-height: 400px;
+    overflow: auto;
+  }
+  
+  
+  li {
+    padding: 5px;
+    list-style: decimal inside none;
+  }
+  
+  .mainsection {
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+  }
+  
+.hide {
+  display: none;
+}
+
+  .completed {
+    display: none;
+  }
+  
+  .start {
+    text-align: center;
+    
+  }
+  
+
+  
