@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Boot Camp Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <div class="mark"><a href="mark.html">Click here to view Marks</a></div>
+
+    <div class="timer">Time: <span id="time">0</span></div>
+     <div class = "mainsection">
+      <div id="begin" class="start">
+        <h1>Boot Camp Quiz Challenge</h1>
+        <p>
+        You need to answer the multiple choice questions within the least amount of time in order to win the quiz challenge. For every wrong answer the timer will deduct 20 seconds. 
+        </p>
+        <button id="startquiz"> Begin Quiz </button>
+      </div>
+
+      <div id="challenges" class="hide">
+        <h2 id="challengetitle"></h2>
+        <div id="multiplechoices" class="multiplechoices"></div>
+      </div>
+
+      <div id="endscreen" class="completed">
+        <h2>You have completed the Quiz!</h2>
+        <p>Your score is <span id= "score"></span>.</p>
+        <p>
+          Enter initials: <input type="text" id="initials"/>
+          <button id="submit">Submit</button>
+        </p>
+      </div>
+      <div id = "feedback" class = "feedback hide"> </div>
+      </div>
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/logic.js"></script>
+  </body>
+</html>
